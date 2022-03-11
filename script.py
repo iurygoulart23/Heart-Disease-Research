@@ -44,7 +44,7 @@ num_highfbs_patients = np.sum(heart.fbs == 1)
 print('There are {} patients with fasting blood sugar greater than 120 mg/dl'.format(num_highfbs_patients), '\n')
 
 #8 calculating the number of diabetes patients in a population with 303 patients with 8% chance to have the disease
-diabetes_chance = 0.08*303
+diabetes_chance = 0.08 * num_patients
 print('The total patients of 8% chance to have diabetes in a population of 303 patients are:', round(diabetes_chance, 4), '\n')
 
 #9, 10 hypothesis test Null: sample was drawn from a population where 8% of people have fasting blood sugar >120, Alternative: more than 8% have fasting blood sugar > 120
